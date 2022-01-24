@@ -273,6 +273,8 @@
                         android:orientation="vertical">
 
                         <ImageView
+
+                            android:id="@+id/book15"
                             android:layout_width="150dp"
                             android:layout_height="180dp"
                             android:src="@drawable/city">
@@ -280,6 +282,7 @@
                         </ImageView>
 
                         <TextView
+
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
@@ -313,9 +316,10 @@
                         android:orientation="vertical">
 
                         <ImageView
+                            android:id="@+id/book16"
                             android:layout_width="150dp"
                             android:layout_height="180dp"
-                            android:src="@drawable/city">
+                            android:src="@drawable/breakup">
 
                         </ImageView>
 
@@ -333,6 +337,7 @@
                             android:orientation="horizontal">
 
                             <ImageView
+
                                 android:layout_width="80dp"
                                 android:layout_height="50dp"
                                 android:src="@drawable/stars"></ImageView>
@@ -352,6 +357,7 @@
                         android:orientation="vertical">
 
                         <ImageView
+                            android:id="@+id/book17"
                             android:layout_width="150dp"
                             android:layout_height="180dp"
                             android:src="@drawable/drug">
@@ -559,10 +565,10 @@
                         </ImageView>
 
                         <TextView
-                            android:fontFamily="@font/fira_sans"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
+                            android:fontFamily="@font/fira_sans"
                             android:text="title of the book\n by author"
                             android:textColor="@color/black"></TextView>
 
@@ -604,10 +610,10 @@
 
                         <TextView
 
-                            android:fontFamily="@font/fira_sans"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
+                            android:fontFamily="@font/fira_sans"
                             android:text="title of the book\n by author"
                             android:textColor="@color/black"></TextView>
 
@@ -645,10 +651,10 @@
                         </ImageView>
 
                         <TextView
-                            android:fontFamily="@font/fira_sans"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
+                            android:fontFamily="@font/fira_sans"
                             android:text="title of the book\n by author"
                             android:textColor="@color/black"></TextView>
 
@@ -664,10 +670,10 @@
                                 android:src="@drawable/stars"></ImageView>
 
                             <TextView
-                                android:fontFamily="@font/fira_sans"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
+                                android:fontFamily="@font/fira_sans"
                                 android:text="(3456)"
                                 android:textColor="@color/black"></TextView>
                         </LinearLayout>
@@ -686,10 +692,10 @@
                         </ImageView>
 
                         <TextView
-                            android:fontFamily="@font/fira_sans"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
+                            android:fontFamily="@font/fira_sans"
                             android:text="title of the book\n by author"
                             android:textColor="@color/black"></TextView>
 
@@ -705,10 +711,10 @@
                                 android:src="@drawable/stars"></ImageView>
 
                             <TextView
-                                android:fontFamily="@font/fira_sans"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
+                                android:fontFamily="@font/fira_sans"
                                 android:text="(3456)"
                                 android:textColor="@color/black"></TextView>
                         </LinearLayout>
@@ -727,10 +733,10 @@
                         </ImageView>
 
                         <TextView
-                            android:fontFamily="@font/fira_sans"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
+                            android:fontFamily="@font/fira_sans"
                             android:text="title of the book\n by author"
                             android:textColor="@color/black"></TextView>
 
@@ -746,10 +752,10 @@
                                 android:src="@drawable/stars"></ImageView>
 
                             <TextView
-                                android:fontFamily="@font/fira_sans"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
+                                android:fontFamily="@font/fira_sans"
                                 android:text="(3456)"
                                 android:textColor="@color/black"></TextView>
                         </LinearLayout>
@@ -768,10 +774,10 @@
                         </ImageView>
 
                         <TextView
-                            android:fontFamily="@font/fira_sans"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
+                            android:fontFamily="@font/fira_sans"
                             android:text="title of the book\n by author"
                             android:textColor="@color/black"></TextView>
 
@@ -787,10 +793,10 @@
                                 android:src="@drawable/stars"></ImageView>
 
                             <TextView
-                                android:fontFamily="@font/fira_sans"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
+                                android:fontFamily="@font/fira_sans"
                                 android:text="(3456)"
                                 android:textColor="@color/black"></TextView>
                         </LinearLayout>
@@ -838,153 +844,259 @@
 
             </LinearLayout>
 
-            <LinearLayout
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/book9"
+                                android:layout_width="150dp"
+                                android:layout_height="180dp"
+                                android:elevation="5dp"
+                                android:src="@drawable/after">
+
+                            </ImageView>
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/fira_sans"
+                                android:text="title of the book\n by author"
+                                android:textColor="@color/black"></TextView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/book13"
+                                android:layout_width="150dp"
+                                android:layout_height="180dp"
+                                android:elevation="5dp"
+                                android:src="@drawable/murder">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/fira_sans"
+                                android:text="title of the book\n by author"
+                                android:textColor="@color/black"></TextView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/book14"
+                                android:layout_width="150dp"
+                                android:layout_height="180dp"
+                                android:elevation="5dp"
+                                android:src="@drawable/authorname">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/fira_sans"
+                                android:text="title of the book\n by author"
+                                android:textColor="@color/black"></TextView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <ImageView
+
+                                android:id="@+id/book10"
+                                android:layout_width="150dp"
+                                android:layout_height="180dp"
+                                android:elevation="5dp"
+                                android:src="@drawable/after">
+
+                            </ImageView>
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/fira_sans"
+                                android:text="title of the book\n by author"
+                                android:textColor="@color/black"></TextView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/book11"
+                                android:layout_width="150dp"
+                                android:layout_height="180dp"
+                                android:elevation="5dp"
+                                android:src="@drawable/after">
+
+                            </ImageView>
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/fira_sans"
+                                android:text="title of the book\n by author"
+                                android:textColor="@color/black"></TextView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/book12"
+                                android:layout_width="150dp"
+                                android:layout_height="180dp"
+                                android:elevation="5dp"
+                                android:src="@drawable/after">
+
+                            </ImageView>
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/fira_sans"
+                                android:text="title of the book\n by author"
+                                android:textColor="@color/black"></TextView>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <!--bottom-->
+
+
+                </LinearLayout>
+            </HorizontalScrollView>
+            <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:orientation="horizontal">
+                android:src="@drawable/rblue">
 
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:id="@+id/book9"
-                        android:layout_width="150dp"
-                        android:layout_height="180dp"
-                        android:elevation="5dp"
-                        android:src="@drawable/after">
-
-                    </ImageView>
-
-                    <TextView
-
-                        android:fontFamily="@font/fira_sans"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:text="title of the book\n by author"
-                        android:textColor="@color/black"></TextView>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:layout_width="150dp"
-                        android:layout_height="180dp"
-                        android:elevation="5dp"
-                        android:src="@drawable/murder">
-
-                    </ImageView>
-
-                    <TextView
-                        android:fontFamily="@font/fira_sans"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:text="title of the book\n by author"
-                        android:textColor="@color/black"></TextView>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:layout_width="150dp"
-                        android:layout_height="180dp"
-                        android:elevation="5dp"
-                        android:src="@drawable/authorname">
-
-                    </ImageView>
-
-                    <TextView
-                        android:fontFamily="@font/fira_sans"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:text="title of the book\n by author"
-                        android:textColor="@color/black"></TextView>
-                </LinearLayout>
-            </LinearLayout>
-
-            <!--bottom-->
-
-
+            </ImageView>
+           <TextView
+               android:textColor="@color/white"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="jkbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"></TextView>
         </LinearLayout>
+
     </ScrollView>
 
+
     <LinearLayout
+        android:background="@color/white"
+        android:elevation="25dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:orientation="vertical">
+
         <LinearLayout
 
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:background="@color/light_blue">
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:background="@color/light_blue"
             android:orientation="horizontal">
 
-            <ImageView
-                android:id="@+id/forest"
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:src="@drawable/fk"></ImageView>
+                android:orientation="horizontal">
 
-            <TextView
-                android:id="@+id/textforest"
-                android:fontFamily="@font/fira_sans"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_margin="10dp"
-                android:text="Title of the book\n12:40:01"></TextView>
-        </LinearLayout>
+                <ImageView
+                    android:id="@+id/forest"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/fk"></ImageView>
+
+                <TextView
+                    android:id="@+id/textforest"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/fira_sans"
+                    android:text="Title of the book\n12:40:01"></TextView>
+            </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center">
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_gravity="center">
-            <ImageView
-                android:id="@+id/aplay"
-                android:padding="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:src="@drawable/tenleft">
 
-            </ImageView>
-            <ImageView
-                android:id="@+id/onplay"
-                android:padding="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:src="@drawable/playicon"></ImageView>
-                <ImageView
-                    android:id="@+id/bplay"
-                    android:padding="10dp"
-                    android:layout_width="match_parent"
+                <LinearLayout
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
 
-                    android:src="@drawable/tenright"></ImageView>
-            </LinearLayout>
+                    <ImageView
+                        android:id="@+id/aplay"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:src="@drawable/tenleft">
+
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/onplay"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:src="@drawable/playicon"></ImageView>
+
+                    <ImageView
+                        android:id="@+id/bplay"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+
+                        android:src="@drawable/tenright"></ImageView>
+                </LinearLayout>
             </LinearLayout>
         </LinearLayout>
-
 
 
         <LinearLayout

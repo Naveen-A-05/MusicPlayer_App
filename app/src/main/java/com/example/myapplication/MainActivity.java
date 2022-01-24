@@ -12,7 +12,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-    ImageView play, book, book2, book3, book4, book5, book6, book7, book8, book9, forest, aplay, bplay;
+    ImageView play, book, book2, book3, book4, book5, book6, book7, book8, book9, book10, book11, book12, book13, book14, book15, book16, book17, forest, aplay, bplay;
     TextView textforest;
 
     @Override
@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
-        forest= findViewById(R.id.forest);
+        forest = findViewById(R.id.forest);
         forest.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -65,7 +65,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
-
 
 
         book = findViewById(R.id.book1);
@@ -142,6 +141,87 @@ public class MainActivity extends AppCompatActivity {
         });
         book9 = findViewById(R.id.book9);
         book9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this, bookdetails.class);
+
+                startActivity(i);
+            }
+        });
+        book10 = findViewById(R.id.book10);
+        book10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this, bookdetails.class);
+
+                startActivity(i);
+            }
+        });
+        book11 = findViewById(R.id.book11);
+        book11.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this, bookdetails.class);
+
+                startActivity(i);
+            }
+        });
+        book12 = findViewById(R.id.book12);
+        book12.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this, bookdetails.class);
+
+                startActivity(i);
+            }
+        });
+        book13 = findViewById(R.id.book13);
+        book13.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this, bookdetails.class);
+
+                startActivity(i);
+            }
+        });
+        book14 = findViewById(R.id.book14);
+        book14.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this, bookdetails.class);
+
+                startActivity(i);
+            }
+        });
+        book14 = findViewById(R.id.book14);
+        book14.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this, bookdetails.class);
+
+                startActivity(i);
+            }
+        });
+        book15 = findViewById(R.id.book15);
+        book15.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this, bookdetails.class);
+
+                startActivity(i);
+            }
+        });
+        book16 = findViewById(R.id.book16);
+        book16.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this, bookdetails.class);
+
+                startActivity(i);
+            }
+        });
+        book17 = findViewById(R.id.book17);
+        book17.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this, bookdetails.class);

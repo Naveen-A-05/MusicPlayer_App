@@ -40,27 +40,27 @@
 
 
     <LinearLayout
+        android:id="@+id/pg2_lay2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/pg2_lay2"
-        android:orientation="vertical"
-        android:gravity="center"
-        android:background="#BBDDE3"
         android:layout_below="@+id/pg2_lay1"
+        android:background="#BBDDE3"
+        android:gravity="center"
+        android:orientation="vertical"
         android:paddingTop="40dp"
         android:paddingBottom="40dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="300dp"
-            android:gravity="center"
-            android:background="#1B6E7C">
+            android:background="#1B6E7C"
+            android:gravity="center">
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/bigdrug"
-                android:padding="3dp"></ImageView>
+                android:padding="3dp"
+                android:src="@drawable/bigdrug"></ImageView>
         </LinearLayout>
 
 
